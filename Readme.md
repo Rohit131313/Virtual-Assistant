@@ -16,8 +16,18 @@
    ```bash
    pip install -r requirements.txt
    ```
+   And Install ffmpeg too locally 
+   
+   Since We are using ffmpeg to capture audio from the microphone, please note that this functionality will not work in Google Colab. Google Colab does not support direct audio input from the microphone.To use   ffmpeg for capturing audio, you will need to run the code on your local machine and install ffmpeg locally.
 
-4. Run the project:
+   To Install ffmpeg , For Windows
+
+   1. Download the ffmpeg-git-full.7z executable from [ffmpeg.org.](https://www.gyan.dev/ffmpeg/builds/) 
+   2. Extract the downloaded archive.
+   3. Add the bin directory of the extracted folder to your system’s PATH environment variable.
+
+
+5. Run the project:
    ```bash
    python main.py
    ```
